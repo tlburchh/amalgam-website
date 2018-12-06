@@ -1,3 +1,10 @@
 .parallax-container {
   height: 200px;
 }
+
+body {
+  background-image: url("../images/abstract-galaxy.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 170%;
+}
