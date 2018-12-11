@@ -8,3 +8,45 @@ body {
   background-attachment: fixed;
   background-size: 170%;
 }
+
+nav {
+  position: relative;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  color: #fff;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(70, 22, 22), rgba(0, 0, 0, 0));
+  border: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+}
+
+.nav-mobile {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* .brand-logo {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+} */
+@keyframes animate
+{
+  0%
+  {
+    background-position: -500%;
+  }
+  100%
+  {
+    background-position: 500%;
+  }
+}
