@@ -1,3 +1,89 @@
+/* html { 
+  background-image: url(../images/abstract-galaxy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
 .parallax-container {
   height: 200px;
+}
+
+/* #bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+body {
+  background-image: url("../images/abstract-galaxy.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+p {
+  color: white;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  text-transform: uppercase;
+  /* letter-spacing: 4px; */
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(70, 22, 22), rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+nav #nav-mobile a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.page-footer {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+/* .brand-logo {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+} */
+@keyframes animate
+{
+  0%
+  {
+    background-position: -500%;
+  }
+  100%
+  {
+    background-position: 500%;
+  }
 }

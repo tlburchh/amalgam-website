@@ -1,7 +1,7 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -9,28 +9,31 @@
       <link type="text/css" rel="stylesheet" href="css/style.css"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- <img src="./images/abstract-galaxy.jpg" id="bg" alt=""> -->
     </head>
 
     <body>
     <!-- Navbar -->
     <nav>
-        <div class="nav-wrapper">
-          <a class="brand-logo"> Amalgam Innovations</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div>
+          <a class="brand-logo center">Amalgam Innovations</a>
+        </div>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
             <!-- ScrollSpy links -->
             <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#team">team</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-        </div>
       </nav>
-      <div class="container">
-          <!-- Parallax -->
+
+      <!-- <div class="container">
+          Parallax
           <div class="parallax-container col s12"></div>
-              <div class="parallax col s12"><img  src="images/logo1.jpg"></div>
-          </div>
-      <div class = 'container'>
+              <div class="parallax col s12 center"><img  src="images/logo1.jpg"></div>
+          </div> -->
+      <div class="container">
         <!-- Scrollspy -->
         <div class="row">
               <div id="introduction" class="section scrollspy">
@@ -39,8 +42,8 @@
                         <div class="card-content white-text">
                           <span class="card-title">introduction</span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet, quam ultricies efficitur blandit, lacus purus malesuada odio, eu tempor purus est nec eros. Vestibulum dignissim orci nec auctor malesuada. Integer dignissim mauris nibh, ut faucibus ex vehicula nec. Ut aliquet, sapien ac luctus semper, metus lectus dapibus felis, eget feugiat magna tellus ut metus. Aenean ac justo massa. Donec vel velit sapien. Quisque ultricies quis nibh non suscipit. Vivamus eu tincidunt enim. Vestibulum nec ipsum auctor, venenatis mauris vitae, tristique augue. Nulla ac vulputate justo. Maecenas sit amet purus imperdiet nunc commodo iaculis. Integer non ornare enim. Maecenas pretium ex quam, ut egestas lectus pretium luctus. Donec leo massa, maximus sed efficitur id, lobortis sit amet mauris. Quisque ultrices varius pretium.
-                            <br><br>
-                              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dictum pretium tellus quis bibendum. Donec non turpis sit amet nunc suscipit mattis eget in elit. Nunc nec bibendum erat, in pulvinar risus. Nulla euismod tincidunt diam, et varius elit scelerisque blandit. Fusce euismod ex dui, ac tristique sapien varius sed. Aliquam consectetur consectetur lacus, sed dictum neque rutrum ac. Aenean magna turpis, sagittis sed lectus eget, porta consequat nunc.</p>
+                          <br><br>
+                          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dictum pretium tellus quis bibendum. Donec non turpis sit amet nunc suscipit mattis eget in elit. Nunc nec bibendum erat, in pulvinar risus. Nulla euismod tincidunt diam, et varius elit scelerisque blandit. Fusce euismod ex dui, ac tristique sapien varius sed. Aliquam consectetur consectetur lacus, sed dictum neque rutrum ac. Aenean magna turpis, sagittis sed lectus eget, porta consequat nunc.</p>
                         </div>
                       </div>
                     </div>
@@ -49,9 +52,17 @@
           <!-- </div>
             <div class="parallax"><img src="images/logo1.jpg"></div>
           </div> -->
-            <div id="projects" class="section scrollspy">
-              <p>projects </p>
-            </div>
+          <div class="container">
+            <p>Projects </p>
+            <div class="row">
+            <div id="projects" class="carousel carousel-slider section scrollspy col s12">
+                  <a class="carousel-item" href="#one!"><img src="http://via.placeholder.com/800/400"></a>
+                  <a class="carousel-item" href="#two!"><img src="http://via.placeholder.com/800/400"></a>
+                  <a class="carousel-item" href="#three!"><img src="http://via.placeholder.com/800/400"></a>
+                  <a class="carousel-item" href="#four!"><img src="http://via.placeholder.com/800/400"></a>
+            </div><!-- Closes ID project -->               
+          </div><!-- Closes Row -->       
+          </div><!-- Closes Container -->
 
             <div id="team" class="section scrollspy">
                 <div class="row">
@@ -120,7 +131,6 @@
       <!-- Footer -->
       <footer class="page-footer">
           <div class="container">
-       
           </div>
           <div class="footer-copyright">
             <div class="container">
