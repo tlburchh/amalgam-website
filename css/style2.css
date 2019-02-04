@@ -1,11 +1,12 @@
 body {
-    background-image: url("../images/abstract-galaxy.jpg");
+    background-image: url("../images/abstract-galaxy2.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
   }
   
   p {
@@ -13,20 +14,20 @@ body {
   }
   
   .amalgam {
-    position: fixed;
+    position: absolute;
     z-index: 1;
     text-align: center;
     top: 0;
     left: 0;
     width: 100%;
-    height: 53px;
+    height: 60px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 4px;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(70, 22, 22), rgba(0, 0, 0, 0));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(170, 107, 107), rgba(0, 0, 0, 0));
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear infinite;
@@ -42,9 +43,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
 } */
 
-.nav-item:hover{
-    color: red;
-}
+/* .navbar-nav a:hover {
+    background-color: rgba(15, 174, 236, 0.3);
+} */
 
 .navbar-light .navbar-toggler {
     color: rgb(255, 255, 255);
