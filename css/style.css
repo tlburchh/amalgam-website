@@ -1,51 +1,33 @@
-/* html { 
-  background-image: url(../images/abstract-galaxy.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.parallax-container {
-  height: 200px;
-}
-
-/* #bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  min-width: 100%;
-  min-height: 100%;
-} */
-
 body {
-  background-image: url("../images/abstract-galaxy.jpg");
+  background-image: url("../images/abstract-galaxy3.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-top: 60px;
+  position: relative;
 }
 
 p {
   color: white;
 }
 
-nav {
-  position: fixed;
-  z-index: 1000;
+.amalgam {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 50px;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
   color: #fff;
   text-transform: uppercase;
-  /* letter-spacing: 4px; */
+  letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(70, 22, 22), rgba(0, 0, 0, 0));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(170, 107, 107), rgba(0, 0, 0, 0));
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
@@ -54,35 +36,117 @@ nav {
   box-shadow: none;
 }
 
-nav #nav-mobile a{
+/* .navbar-light .navbar-brand {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 12px;
+} */
+
+/* .navbar-nav a:hover {
+  background-color: rgba(15, 174, 236, 0.3);
+} */
+
+.navbar-light .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255);
+  z-index: 2;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/round_menu_white_18dp.png);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  z-index: 2;
+}
+
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+}
+
+#intro {
+  padding-top: 60px;
+}
+
+#proj {
+  padding-top: 60px;
+}
+
+#mems {
+  padding-top: 60px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.jumbotron{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: .25rem;
+}
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #ffffffb5;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: .3rem;
+  outline: 0;
+}
+
+@keyframes animate
+{
+0%
+{
+  background-position: -500%;
+}
+100%
+{
+  background-position: 500%;
+}
 }
 
 .page-footer {
   background-color: rgba(0, 0, 0, 0.507);
-}
-
-/* .brand-logo {
-  position: relative;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-} */
-@keyframes animate
-{
-  0%
-  {
-    background-position: -500%;
-  }
-  100%
-  {
-    background-position: 500%;
-  }
 }
