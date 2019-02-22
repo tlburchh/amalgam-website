@@ -11,6 +11,8 @@ body {
 
 p {
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .amalgam {
@@ -20,9 +22,9 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
+  height: 55px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -93,19 +95,19 @@ p {
 h2 {
   color: white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 h3 {
   color: white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 h5 {
   color: white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 .jumbotron{
