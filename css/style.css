@@ -97,7 +97,12 @@ h2 {
   text-align: center;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
-
+.incFont {
+  color: white;
+  text-align: center;
+  font-size:40px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
 h3 {
   color: white;
   text-align: center;
